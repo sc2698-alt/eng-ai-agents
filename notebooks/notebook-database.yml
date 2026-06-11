@@ -519,6 +519,8 @@ notebooks:
   code_cells: 10
   environment: torch.dev.gpu
   description: 
+  last_executed: 2026-06-03
+  duration_seconds: 3.4
 - source: aiml-common/lectures/aleatoric-epistemic/index.ipynb
   notebook: aleatoric-epistemic/index.ipynb
   code_cells: 6
@@ -547,3 +549,8 @@ notebooks:
   description: Momentum, Nesterov, RMSProp and Adam from scratch on ravine and saddle landscapes, with a PyTorch coda
   last_executed: 2026-05-31
   duration_seconds: 4.8
+- source: aiml-common/assignments/topics/logistic-regression/ctr-logreg-sgd/ctr_logreg_sgd_assignment.ipynb
+  notebook: assignments/topics/logistic-regression/ctr-logreg-sgd/ctr_logreg_sgd_assignment.ipynb
+  code_cells: 12
+  environment: torch.dev.gpu
+  description: CTR prediction with logistic regression, the hashing trick and SGD
